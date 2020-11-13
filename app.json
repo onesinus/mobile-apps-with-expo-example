@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "ospt_online_attendance",
+    "slug": "online_attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.ospt.onlineattendance",
+      "versionCode": 2
+    },
+    "sdkVersion": "38.0.0"
+  }
+}
